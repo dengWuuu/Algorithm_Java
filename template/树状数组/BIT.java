@@ -1,4 +1,4 @@
-package 模板.树状数组;
+package template.树状数组;
 
 /**
  * @author Wu
