@@ -9,44 +9,6 @@ import java.io.*;
  */
 //https://codeforces.com/problemset/problem/369/E
 //TODO: 技巧树状数组可以解决的
-
-class Main {
-    public static void main(String[] args) {
-        CF_369_E.solve();
-    }
-}
-
-class BIT_CF_369_E {
-    private final int[] tree;
-
-    public BIT_CF_369_E(int n) {
-        tree = new int[n];
-    }
-
-    // 将下标 i 上的数加一
-    public void inc(int i) {
-        while (i < tree.length) {
-            ++tree[i];
-            i += i & -i;
-        }
-    }
-
-    // 返回闭区间 [1, i] 的元素和
-    public int sum(int x) {
-        int res = 0;
-        while (x > 0) {
-            res += tree[x];
-            x &= x - 1;
-        }
-        return res;
-    }
-
-    // 返回闭区间 [left, right] 的元素和
-    public int query(int left, int right) {
-        return sum(right) - sum(left - 1);
-    }
-}
-
 class CF_369_E {
     public static void solve() {
         Kattio io = new Kattio();
@@ -116,6 +78,37 @@ class CF_369_E {
         public long nextLong() {
             return Long.parseLong(next());
         }
+    }
+}
+
+class BIT_CF_369_E {
+    private final int[] tree;
+
+    public BIT_CF_369_E(int n) {
+        tree = new int[n];
+    }
+
+    // 将下标 i 上的数加一
+    public void inc(int i) {
+        while (i < tree.length) {
+            ++tree[i];
+            i += i & -i;
+        }
+    }
+
+    // 返回闭区间 [1, i] 的元素和
+    public int sum(int x) {
+        int res = 0;
+        while (x > 0) {
+            res += tree[x];
+            x &= x - 1;
+        }
+        return res;
+    }
+
+    // 返回闭区间 [left, right] 的元素和
+    public int query(int left, int right) {
+        return sum(right) - sum(left - 1);
     }
 }
 

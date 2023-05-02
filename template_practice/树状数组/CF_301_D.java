@@ -1,55 +1,27 @@
-package CF.灵茶试炼;
+package template_practice.树状数组;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
  * @author Wu
- * @date 2023年05月01日 21:16
+ * @date 2023年05月02日 10:16
  */
-//https://codeforces.com/problemset/problem/489/C
-class CF_489_C {
-    public void solve() {
+//TODO 树状数组
+public class CF_301_D {
+    public static void main(String[] args) {
+        CF_301_D.solve();
+    }
+
+    public static void solve() {
         Kattio io = new Kattio();
-        int m = io.nextInt(), s = io.nextInt();
-
-        if (m * 9 < s || (s == 0 && m != 1)) {
-            io.println(-1 + " " + -1);
-            io.flush();
-            io.close();
+        int n = io.nextInt(), m = io.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = io.nextInt();
         }
 
-        char[] min = new char[m];
-        Arrays.fill(min, '0');
-        min[0] = '1';
-        int cnt = 1;
-        //find min
-        for (int i = m - 1; i >= 0; i--) {
-            if (s - cnt > 9) {
-                min[i] = '9';
-                cnt += 9;
-            } else {
-                if (min[i] == '0') min[i] = (char) (s - cnt + '0');
-                else min[i] = (char) (s - cnt + '0' + 1);
-                break;
-            }
-        }
-        //find max
-        cnt = 0;
-        char[] max = new char[m];
-        Arrays.fill(max, '0');
-        for (int i = 0; i < m; i++) {
-            if (s - cnt > 9) {
-                max[i] = '9';
-                cnt += 9;
-            } else {
-                max[i] = (char) (s - cnt + '0');
-                break;
-            }
-        }
-        io.print(String.valueOf(min) + " " + String.valueOf(max));
-        io.flush();
+
         io.close();
     }
 
@@ -96,5 +68,35 @@ class CF_489_C {
             return Long.parseLong(next());
         }
     }
+}
 
+class BIT_CF_301_D {
+    private final int[] tree;
+
+    public BIT_CF_301_D(int n) {
+        tree = new int[n];
+    }
+
+    // 将下标 i 上的数加一
+    public void inc(int i) {
+        while (i < tree.length) {
+            ++tree[i];
+            i += i & -i;
+        }
+    }
+
+    // 返回闭区间 [1, i] 的元素和
+    public int sum(int x) {
+        int res = 0;
+        while (x > 0) {
+            res += tree[x];
+            x &= x - 1;
+        }
+        return res;
+    }
+
+    // 返回闭区间 [left, right] 的元素和
+    public int query(int left, int right) {
+        return sum(right) - sum(left - 1);
+    }
 }

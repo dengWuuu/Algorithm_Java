@@ -1,56 +1,53 @@
 package CF.灵茶试炼;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 /**
  * @author Wu
- * @date 2023年05月01日 21:16
+ * @date 2023年05月02日 11:01
  */
-//https://codeforces.com/problemset/problem/489/C
-class CF_489_C {
-    public void solve() {
+
+class Main {
+    public static void main(String[] args) {
+        CF_1256_D.solve();
+    }
+}
+
+public class CF_1256_D {
+
+    public static void solve() {
         Kattio io = new Kattio();
-        int m = io.nextInt(), s = io.nextInt();
+        int q = io.nextInt();
 
-        if (m * 9 < s || (s == 0 && m != 1)) {
-            io.println(-1 + " " + -1);
-            io.flush();
-            io.close();
+        while (q-- > 0) {
+            int n = io.nextInt();
+            long k = io.nextLong();
+            String str = io.next();
+            int c0 = 0, c1 = 0;
+            boolean flag = false;
+            for (int i = 0; i < n; i++) {
+                if (str.charAt(i) == '0') {
+                    if (k < c1) {
+                        io.println("0".repeat(c0) + "1".repeat(c1 - (int) k) + "0" + "1".repeat((int) k) + str.substring(i + 1));
+                        flag = true;
+                        break;
+                    }
+                    k -= c1;
+                    c0++;
+                } else c1++;
+            }
+            if (!flag) io.println("0".repeat(c0) + "1".repeat(c1));
         }
 
-        char[] min = new char[m];
-        Arrays.fill(min, '0');
-        min[0] = '1';
-        int cnt = 1;
-        //find min
-        for (int i = m - 1; i >= 0; i--) {
-            if (s - cnt > 9) {
-                min[i] = '9';
-                cnt += 9;
-            } else {
-                if (min[i] == '0') min[i] = (char) (s - cnt + '0');
-                else min[i] = (char) (s - cnt + '0' + 1);
-                break;
-            }
-        }
-        //find max
-        cnt = 0;
-        char[] max = new char[m];
-        Arrays.fill(max, '0');
-        for (int i = 0; i < m; i++) {
-            if (s - cnt > 9) {
-                max[i] = '9';
-                cnt += 9;
-            } else {
-                max[i] = (char) (s - cnt + '0');
-                break;
-            }
-        }
-        io.print(String.valueOf(min) + " " + String.valueOf(max));
         io.flush();
         io.close();
+    }
+
+    public static void swap(int i, int j, char[] s) {
+        char t = s[i];
+        s[i] = s[j];
+        s[j] = t;
     }
 
     public static class Kattio extends PrintWriter {
@@ -96,5 +93,4 @@ class CF_489_C {
             return Long.parseLong(next());
         }
     }
-
 }
