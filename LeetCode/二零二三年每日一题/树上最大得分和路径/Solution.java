@@ -1,9 +1,15 @@
-package LeetCode.周赛总.双周赛.双周赛91.题3;
+package LeetCode.二零二三年每日一题.树上最大得分和路径;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author Wu
+ * @date 2023年05月09日 11:07
+ * @email dengwu.wu@foxmail.com
+ */
+//https://leetcode.cn/problems/most-profitable-path-in-a-tree/
 public class Solution {
     List<List<Integer>> g = new ArrayList<>();
     int[] costs;
