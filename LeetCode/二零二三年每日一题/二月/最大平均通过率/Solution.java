@@ -1,6 +1,5 @@
 package LeetCode.二零二三年每日一题.二月.最大平均通过率;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
