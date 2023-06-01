@@ -1,51 +1,19 @@
-package CF.灵茶试炼.MaximumMedian;
+package CF.灵茶试炼.Y_2023.FoxAndMinimalPath;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
+/**
+ * @author Wu
+ * @date 2023年03月02日 17:05
+ */
 public class Main {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        solution.solve();
-    }
-}
-
-class Solution {
-
-    public void solve() {
         Kattio io = new Kattio();
-        int n = io.nextInt();
-        long k = io.nextLong();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = io.nextInt();
-        }
-        Arrays.sort(arr);
+        int k = io.nextInt();
 
-        long l = -1, r = (long) (2e9 + 100);
-        while (l + 1 < r) {
-            long mid = (r + l) / 2;
-            if (check(arr, k, mid)) {
-                l = mid;
-            } else {
-                r = mid;
-            }
-        }
-        io.println(l);
-        io.flush();
-        io.close();
-    }
 
-    //1 2 3 4 5 6
-    public boolean check(int[] arr, long k, long num) {
-        int n = arr.length;
-        int mid = n / 2;
-        for (int i = mid; i < n; i++) {
-            if (arr[i] < num) k -= num - arr[i];
-        }
 
-        return k >= 0;
     }
 
     public static class Kattio extends PrintWriter {

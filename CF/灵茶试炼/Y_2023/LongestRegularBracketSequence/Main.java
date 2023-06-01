@@ -1,4 +1,4 @@
-package CF.灵茶试炼.LongestRegularBracketSequence;
+package CF.灵茶试炼.Y_2023.LongestRegularBracketSequence;
 
 import java.util.Scanner;
 

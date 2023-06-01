@@ -1,4 +1,4 @@
-package CF.灵茶试炼.ChoosingCapitalForTreeland;
+package CF.灵茶试炼.Y_2023.ChoosingCapitalForTreeland;
 
 import java.io.*;
 import java.util.*;

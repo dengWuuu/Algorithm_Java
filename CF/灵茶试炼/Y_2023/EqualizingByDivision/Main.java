@@ -1,4 +1,4 @@
-package CF.灵茶试炼.EqualizingByDivision;
+package CF.灵茶试炼.Y_2023.EqualizingByDivision;
 
 import java.util.ArrayList;
 import java.util.Collections;

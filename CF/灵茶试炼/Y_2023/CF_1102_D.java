@@ -1,57 +1,56 @@
-package CF.灵茶试炼.RationalLee;
+package CF.灵茶试炼.Y_2023;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
  * @author Wu
- * @date 2023年04月17日 10:42
+ * @date 2023年06月01日 16:59
  */
-public class Main {
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        s.solve();
-    }
-}
 
-class Solution {
-
-    public void solve() {
+class CF_1102_D {
+    public static void solve() {
         Kattio io = new Kattio();
-        int T = io.nextInt();
-        while (T-- > 0) {
-            int n = io.nextInt(), k = io.nextInt();
-            Integer[] a = new Integer[n];
-            for (int i = 0; i < n; i++) {
-                a[i] = io.nextInt();
-            }
-            Integer[] w = new Integer[k];
-            for (int i = 0; i < k; i++) {
-                w[i] = io.nextInt();
-            }
+        int n = io.nextInt();
+        String s = io.next();
 
-            Arrays.sort(a);
-            Arrays.sort(w);
-            long ans = 0;
-            int r = n - 1;
-            //前k大的加入答案
-            for (int i = 0; i < k; i++) {
-                ans += a[r];
-                if (w[i] == 1) ans += a[r];
-                r--;
-            }
-            //统计剩下多少空间可以装小数（不会用到的）
-            for (int i = k - 1, l = 0; i >= 0 && l <= r; i--) {
-                if (w[i] == 1) break;
-                ans += a[l];
-                l += w[i] - 1;
-            }
-
-            io.println(ans);
-            io.flush();
-
+        int[] cnt = new int[3];
+        for (int i = 0; i < n; i++) {
+            cnt[s.charAt(i) - '0']++;
         }
+        char[] a = s.toCharArray();
+        int average = n / 3;
+
+        for (int i = 0; i < n; i++) {
+            int idx = a[i] - '0';
+            if (cnt[idx] > average) {
+                for (int j = 0; j < idx; j++) {
+                    if (cnt[j] < average) {
+                        cnt[j]++;
+                        cnt[idx]--;
+                        a[i] = (char) (j + '0');
+                        break;
+                    }
+                }
+            }
+        }
+        for (int i = n - 1; i >= 0; i--) {
+            int idx = a[i] - '0';
+            if (cnt[idx] > average) {
+                for (int j = 2; j > idx; j--) {
+                    if (cnt[j] < average) {
+                        cnt[j]++;
+                        cnt[idx]--;
+                        a[i] = (char) (j + '0');
+                        break;
+                    }
+                }
+            }
+        }
+
+        io.println(String.valueOf(a));
+        io.flush();
+        io.close();
     }
 
     public static class Kattio extends PrintWriter {

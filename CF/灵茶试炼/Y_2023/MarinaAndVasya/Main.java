@@ -1,4 +1,4 @@
-package CF.灵茶试炼.MarinaAndVasya;
+package CF.灵茶试炼.Y_2023.MarinaAndVasya;
 
 import java.io.*;
 import java.util.StringTokenizer;

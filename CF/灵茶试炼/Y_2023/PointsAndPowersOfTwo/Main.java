@@ -1,4 +1,4 @@
-package CF.灵茶试炼.PointsAndPowersOfTwo;
+package CF.灵茶试炼.Y_2023.PointsAndPowersOfTwo;
 
 import java.io.*;
 import java.util.*;

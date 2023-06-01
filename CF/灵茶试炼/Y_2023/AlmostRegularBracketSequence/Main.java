@@ -1,4 +1,4 @@
-package CF.灵茶试炼.AlmostRegularBracketSequence;
+package CF.灵茶试炼.Y_2023.AlmostRegularBracketSequence;
 
 import java.util.Arrays;
 import java.util.Scanner;
