@@ -5,20 +5,33 @@ import java.util.StringTokenizer;
 
 /**
  * @author Wu
- * @date 2023年06月01日 21:19
+ * @date 2023年06月05日 19:34
  */
+class CF_414_B {
+    int MOD = (int) 1e9 + 7;
 
-//https://codeforces.com/contest/237/problem/C
-//TODO
-class CF_237_C {
-    public static void solve() {
+    public void solve() {
         Kattio io = new Kattio();
+        int u = io.nextInt(), n = io.nextInt();
+        long ans = 0;
+        long[][] dp = new long[n][u + 1];
 
-        int a = io.nextInt();
-        int b = io.nextInt();
-        int k = io.nextInt();
+        for (int i = 1; i <= u; i++) {
+            dp[0][i] = 1;
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j <= u; j++) {
+                dp[i][j] += dp[i - 1][j];
+                for (int k = j * 2; k <= u; k += j) {
+                    dp[i][k] = (dp[i][k] + dp[i - 1][j]) % MOD;
+                }
+            }
+        }
+        for (int i = 1; i <= u; i++) {
+            ans = (ans + dp[n - 1][i]) % MOD;
+        }
 
-
+        io.println(ans);
         io.flush();
         io.close();
     }
