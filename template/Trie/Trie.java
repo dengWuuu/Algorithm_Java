@@ -1,4 +1,4 @@
-package 模板.前缀树;
+package template.Trie;
 
 /**
  * @author Wu
