@@ -40,4 +40,17 @@ public class 筛法 {
         primes[pi++] = MX + 1; // 保证下面下标不会越界
 
     }
+
+    public boolean isPrime(int number) {
+        if (number <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
