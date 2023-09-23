@@ -1,10 +1,11 @@
-package template.快速幂;
+package template.Math;
 
 /**
  * @author Wu
- * @date 2023年01月29日 13:10
+ * @date 2023年09月23日 16:45
+ * @email dengwu.wu@foxmail.com
  */
-public class Solution {
+public class POW {
     long MOD = (long) (1e9 + 7);
 
     public long pow3(long a, long b) {
@@ -30,4 +31,9 @@ public class Solution {
         }
         return ans;
     }
+
+    public long qpow(long a, long mod) {
+        return pow3(a, mod - 2);
+    }
+
 }
