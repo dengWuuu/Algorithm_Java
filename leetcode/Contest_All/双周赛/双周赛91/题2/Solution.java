@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.双周赛.双周赛91.题2;
+package leetcode.Contest_All.双周赛.双周赛91.题2;
 
 public class Solution {
     long MOD = (long) (1e9 + 7);

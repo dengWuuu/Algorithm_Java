@@ -1,4 +1,4 @@
-package LeetCode.热题100.根据身高重建队列;
+package leetcode.热题100.根据身高重建队列;
 
 import java.util.*;
 

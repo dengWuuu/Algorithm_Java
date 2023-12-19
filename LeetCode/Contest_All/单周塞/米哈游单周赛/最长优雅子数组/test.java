@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.米哈游单周赛.最长优雅子数组;
+package leetcode.Contest_All.单周塞.米哈游单周赛.最长优雅子数组;
 
 /**
  * @author Wu

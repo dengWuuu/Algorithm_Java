@@ -1,4 +1,4 @@
-package LeetCode.热题100.整数反转;
+package leetcode.热题100.整数反转;
 
 /**
  * @author Wu

@@ -1,4 +1,4 @@
-package LeetCode.热题100.从前序与中序遍历序列构造二叉树;
+package leetcode.热题100.从前序与中序遍历序列构造二叉树;
 
 import java.util.HashMap;
 import java.util.Map;

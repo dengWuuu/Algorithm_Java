@@ -1,4 +1,4 @@
-package LeetCode.热题100.hard.最大矩形;
+package leetcode.热题100.hard.最大矩形;
 
 /**
  * @author Wu

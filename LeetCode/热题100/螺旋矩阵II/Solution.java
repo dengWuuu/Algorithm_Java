@@ -1,4 +1,4 @@
-package LeetCode.热题100.螺旋矩阵II;
+package leetcode.热题100.螺旋矩阵II;
 
 /**
  * https://leetcode.cn/problems/spiral-matrix-ii/

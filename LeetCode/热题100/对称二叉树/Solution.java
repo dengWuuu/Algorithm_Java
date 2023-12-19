@@ -1,4 +1,4 @@
-package LeetCode.热题100.对称二叉树;
+package leetcode.热题100.对称二叉树;
 
 /**
  * @author Wu

@@ -1,4 +1,4 @@
-package LeetCode.热题100.最大正方形;
+package leetcode.热题100.最大正方形;
 
 /**
  * https://leetcode.cn/problems/maximal-square/

@@ -1,4 +1,4 @@
-package LeetCode.热题100.课程表;
+package leetcode.热题100.课程表;
 
 import java.util.*;
 

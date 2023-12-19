@@ -1,4 +1,4 @@
-package LeetCode.热题100.hard.接雨水;
+package leetcode.热题100.hard.接雨水;
 
 import java.util.Stack;
 

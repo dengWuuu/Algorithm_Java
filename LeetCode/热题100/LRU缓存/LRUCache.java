@@ -1,4 +1,4 @@
-package LeetCode.热题100.LRU缓存;
+package leetcode.热题100.LRU缓存;
 
 import java.util.HashMap;
 import java.util.Map;

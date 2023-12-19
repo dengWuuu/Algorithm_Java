@@ -1,4 +1,4 @@
-package LeetCode.热题100.寻找重复数;
+package leetcode.热题100.寻找重复数;
 
 /**
  * @author Wu

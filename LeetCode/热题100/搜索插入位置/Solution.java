@@ -1,4 +1,4 @@
-package LeetCode.热题100.搜索插入位置;
+package leetcode.热题100.搜索插入位置;
 
 /**
  * @author Wu

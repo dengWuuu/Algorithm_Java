@@ -1,4 +1,4 @@
-package LeetCode.热题100.格雷编码;
+package leetcode.热题100.格雷编码;
 
 import java.util.ArrayList;
 import java.util.List;

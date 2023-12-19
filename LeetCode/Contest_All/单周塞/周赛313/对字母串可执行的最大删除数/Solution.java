@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛313.对字母串可执行的最大删除数;
+package leetcode.Contest_All.单周塞.周赛313.对字母串可执行的最大删除数;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package LeetCode.热题100.矩阵置零;
+package leetcode.热题100.矩阵置零;
 
 /**
  * @author Wu

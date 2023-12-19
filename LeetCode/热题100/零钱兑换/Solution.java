@@ -1,4 +1,4 @@
-package LeetCode.热题100.零钱兑换;
+package leetcode.热题100.零钱兑换;
 
 import java.util.Arrays;
 

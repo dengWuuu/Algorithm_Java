@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.双周赛.双周赛104.题3;
+package leetcode.Contest_All.双周赛.双周赛104.题3;
 
 /**
  * @author Wu

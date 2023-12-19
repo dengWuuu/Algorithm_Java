@@ -1,4 +1,4 @@
-package LeetCode.热题100.最短无序连续子数组;
+package leetcode.热题100.最短无序连续子数组;
 
 /**
  * https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/?favorite=2cktkvj

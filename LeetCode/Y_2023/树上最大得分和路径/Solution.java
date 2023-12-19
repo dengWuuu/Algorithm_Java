@@ -1,4 +1,4 @@
-package LeetCode.Y_2023.树上最大得分和路径;
+package leetcode.Y_2023.树上最大得分和路径;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛375.题2;
+package leetcode.Contest_All.单周塞.周赛375.题2;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package LeetCode.Y_2023.铺瓷砖;
+package leetcode.Y_2023.铺瓷砖;
 
 /**
  * @author Wu

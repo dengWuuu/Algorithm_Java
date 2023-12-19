@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛322.将节点分成尽可能多的组;
+package leetcode.Contest_All.单周塞.周赛322.将节点分成尽可能多的组;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package LeetCode.热题100.岛屿数量;
+package leetcode.热题100.岛屿数量;
 
 /**
  * @author Wu

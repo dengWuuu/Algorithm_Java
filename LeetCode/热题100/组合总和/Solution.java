@@ -1,4 +1,4 @@
-package LeetCode.热题100.组合总和;
+package leetcode.热题100.组合总和;
 
 import java.util.*;
 

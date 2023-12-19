@@ -1,4 +1,4 @@
-package LeetCode.热题100.hard.二叉树路径最大和;
+package leetcode.热题100.hard.二叉树路径最大和;
 
 /**
  * @author Wu

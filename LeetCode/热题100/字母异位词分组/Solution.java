@@ -1,4 +1,4 @@
-package LeetCode.热题100.字母异位词分组;
+package leetcode.热题100.字母异位词分组;
 
 import java.util.*;
 

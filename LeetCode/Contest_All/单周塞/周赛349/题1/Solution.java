@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛349.题1;
+package leetcode.Contest_All.单周塞.周赛349.题1;
 
 import java.util.Arrays;
 

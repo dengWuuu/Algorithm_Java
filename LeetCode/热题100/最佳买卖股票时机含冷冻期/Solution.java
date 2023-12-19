@@ -1,4 +1,4 @@
-package LeetCode.热题100.最佳买卖股票时机含冷冻期;
+package leetcode.热题100.最佳买卖股票时机含冷冻期;
 
 /**
  * @author Wu

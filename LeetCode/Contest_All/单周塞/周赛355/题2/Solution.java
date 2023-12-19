@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛355.题2;
+package leetcode.Contest_All.单周塞.周赛355.题2;
 
 /**
  * @author Wu

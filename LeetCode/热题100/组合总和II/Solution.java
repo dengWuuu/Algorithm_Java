@@ -1,4 +1,4 @@
-package LeetCode.热题100.组合总和II;
+package leetcode.热题100.组合总和II;
 
 import java.util.ArrayList;
 import java.util.Arrays;

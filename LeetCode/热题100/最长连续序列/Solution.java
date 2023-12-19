@@ -1,4 +1,4 @@
-package LeetCode.热题100.最长连续序列;
+package leetcode.热题100.最长连续序列;
 
 import java.util.HashSet;
 import java.util.Set;

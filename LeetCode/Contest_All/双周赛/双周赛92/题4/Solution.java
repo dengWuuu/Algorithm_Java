@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.双周赛.双周赛92.题4;
+package leetcode.Contest_All.双周赛.双周赛92.题4;
 
 public class Solution {
     public int countPalindromes(String s) {

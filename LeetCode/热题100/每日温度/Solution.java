@@ -1,4 +1,4 @@
-package LeetCode.热题100.每日温度;
+package leetcode.热题100.每日温度;
 
 import java.util.Deque;
 import java.util.LinkedList;

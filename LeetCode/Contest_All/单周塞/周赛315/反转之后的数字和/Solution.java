@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛315.反转之后的数字和;
+package leetcode.Contest_All.单周塞.周赛315.反转之后的数字和;
 
 /**
  * @author Wu

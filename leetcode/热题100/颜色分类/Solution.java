@@ -1,4 +1,4 @@
-package LeetCode.热题100.颜色分类;
+package leetcode.热题100.颜色分类;
 
 /**
  * @author Wu

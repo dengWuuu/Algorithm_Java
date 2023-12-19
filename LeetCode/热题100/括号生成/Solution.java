@@ -1,8 +1,6 @@
-package LeetCode.热题100.括号生成;
+package leetcode.热题100.括号生成;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Deque;
 import java.util.List;
 
 /**

@@ -1,4 +1,4 @@
-package LeetCode.热题100.寻找两个正序数组的中位数;
+package leetcode.热题100.寻找两个正序数组的中位数;
 
 /**
  * @author Wu

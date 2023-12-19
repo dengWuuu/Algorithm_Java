@@ -1,4 +1,4 @@
-package LeetCode.热题100.爬楼梯;
+package leetcode.热题100.爬楼梯;
 
 /**
  * @author Wu

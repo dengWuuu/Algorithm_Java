@@ -1,4 +1,4 @@
-package LeetCode.热题100.单词拆分;
+package leetcode.热题100.单词拆分;
 
 import java.util.List;
 

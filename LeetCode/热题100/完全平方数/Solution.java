@@ -1,4 +1,4 @@
-package LeetCode.热题100.完全平方数;
+package leetcode.热题100.完全平方数;
 
 /**
  * @author Wu

@@ -1,4 +1,4 @@
-package LeetCode.Y_2022.六月;
+package leetcode.Y_2022.六月;
 
 /**
  * @author Wu

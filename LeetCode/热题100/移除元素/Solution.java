@@ -1,4 +1,4 @@
-package LeetCode.热题100.移除元素;
+package leetcode.热题100.移除元素;
 
 /**
  * @author Wu

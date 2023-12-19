@@ -1,4 +1,4 @@
-package LeetCode.热题100.求根节点到叶节点数字之和;
+package leetcode.热题100.求根节点到叶节点数字之和;
 
 /**
  * @author Wu

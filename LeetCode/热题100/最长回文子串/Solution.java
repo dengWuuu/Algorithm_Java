@@ -1,4 +1,4 @@
-package LeetCode.热题100.最长回文子串;
+package leetcode.热题100.最长回文子串;
 
 /**
  * @author Wu

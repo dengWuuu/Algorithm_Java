@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛318.对数组执行操作;
+package leetcode.Contest_All.单周塞.周赛318.对数组执行操作;
 
 /**
  * @author Wu

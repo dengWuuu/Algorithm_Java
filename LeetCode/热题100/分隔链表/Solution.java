@@ -1,4 +1,4 @@
-package LeetCode.热题100.分隔链表;
+package leetcode.热题100.分隔链表;
 
 /**
  * @author Wu

@@ -1,4 +1,4 @@
-package LeetCode.热题100.环形链表;
+package leetcode.热题100.环形链表;
 
 class ListNode {
     int val;

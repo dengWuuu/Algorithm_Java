@@ -1,4 +1,4 @@
-package LeetCode.热题100.环形链表2;
+package leetcode.热题100.环形链表2;
 
 /**
  * @author Wu

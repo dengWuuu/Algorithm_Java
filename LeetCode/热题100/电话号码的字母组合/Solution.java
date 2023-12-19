@@ -1,4 +1,4 @@
-package LeetCode.热题100.电话号码的字母组合;
+package leetcode.热题100.电话号码的字母组合;
 
 import java.util.ArrayList;
 import java.util.HashMap;

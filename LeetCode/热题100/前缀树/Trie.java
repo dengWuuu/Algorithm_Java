@@ -1,4 +1,4 @@
-package LeetCode.热题100.前缀树;
+package leetcode.热题100.前缀树;
 
 public class Trie {
     private final Trie[] children;

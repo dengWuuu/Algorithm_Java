@@ -1,4 +1,4 @@
-package LeetCode.热题100.删除有序数组中的重复项;
+package leetcode.热题100.删除有序数组中的重复项;
 
 /**
  * @author Wu

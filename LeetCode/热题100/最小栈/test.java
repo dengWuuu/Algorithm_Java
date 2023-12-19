@@ -1,4 +1,4 @@
-package LeetCode.热题100.最小栈;
+package leetcode.热题100.最小栈;
 
 /**
  * @author Wu

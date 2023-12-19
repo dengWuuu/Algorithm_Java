@@ -1,4 +1,4 @@
-package LeetCode.热题100.移动零;
+package leetcode.热题100.移动零;
 
 /**
  * @author Wu

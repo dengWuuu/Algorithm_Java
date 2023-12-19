@@ -1,4 +1,4 @@
-package LeetCode.Y_2023.并行课程II;
+package leetcode.Y_2023.并行课程II;
 
 import java.util.ArrayList;
 import java.util.List;

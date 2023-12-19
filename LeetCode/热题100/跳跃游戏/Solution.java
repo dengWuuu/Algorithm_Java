@@ -1,4 +1,4 @@
-package LeetCode.热题100.跳跃游戏;
+package leetcode.热题100.跳跃游戏;
 
 /**
  * @author Wu

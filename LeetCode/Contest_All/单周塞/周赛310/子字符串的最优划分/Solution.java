@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛310.子字符串的最优划分;
+package leetcode.Contest_All.单周塞.周赛310.子字符串的最优划分;
 
 import java.util.HashSet;
 import java.util.Set;

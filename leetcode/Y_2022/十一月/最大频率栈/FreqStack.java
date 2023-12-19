@@ -1,4 +1,4 @@
-package LeetCode.Y_2022.十一月.最大频率栈;
+package leetcode.Y_2022.十一月.最大频率栈;
 
 import java.util.ArrayList;
 import java.util.HashMap;

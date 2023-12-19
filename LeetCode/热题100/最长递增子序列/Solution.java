@@ -1,6 +1,4 @@
-package LeetCode.热题100.最长递增子序列;
-
-import java.util.Arrays;
+package leetcode.热题100.最长递增子序列;
 
 /**
  * @author Wu

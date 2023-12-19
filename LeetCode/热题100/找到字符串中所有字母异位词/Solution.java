@@ -1,4 +1,4 @@
-package LeetCode.热题100.找到字符串中所有字母异位词;
+package leetcode.热题100.找到字符串中所有字母异位词;
 
 import java.util.ArrayList;
 import java.util.Arrays;

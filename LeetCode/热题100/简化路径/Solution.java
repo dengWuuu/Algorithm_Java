@@ -1,4 +1,4 @@
-package LeetCode.热题100.简化路径;
+package leetcode.热题100.简化路径;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

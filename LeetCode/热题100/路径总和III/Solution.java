@@ -1,4 +1,4 @@
-package LeetCode.热题100.路径总和III;
+package leetcode.热题100.路径总和III;
 
 import java.util.HashMap;
 import java.util.Map;

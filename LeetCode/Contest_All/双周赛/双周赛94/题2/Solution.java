@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.双周赛.双周赛94.题2;
+package leetcode.Contest_All.双周赛.双周赛94.题2;
 
 import java.util.*;
 

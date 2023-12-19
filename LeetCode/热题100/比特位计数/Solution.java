@@ -1,4 +1,4 @@
-package LeetCode.热题100.比特位计数;
+package leetcode.热题100.比特位计数;
 
 /**
  * @author Wu

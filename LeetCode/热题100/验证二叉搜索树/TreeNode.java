@@ -1,4 +1,4 @@
-package LeetCode.热题100.验证二叉搜索树;
+package leetcode.热题100.验证二叉搜索树;
 
 public class TreeNode {
     int val;

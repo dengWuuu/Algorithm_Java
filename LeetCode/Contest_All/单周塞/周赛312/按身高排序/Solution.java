@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛312.按身高排序;
+package leetcode.Contest_All.单周塞.周赛312.按身高排序;
 
 import java.util.Arrays;
 import java.util.HashMap;

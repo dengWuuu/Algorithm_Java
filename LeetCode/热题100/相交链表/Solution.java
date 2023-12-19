@@ -1,4 +1,4 @@
-package LeetCode.热题100.相交链表;
+package leetcode.热题100.相交链表;
 
 /**
  * @author Wu

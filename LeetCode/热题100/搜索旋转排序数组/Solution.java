@@ -1,4 +1,4 @@
-package LeetCode.热题100.搜索旋转排序数组;
+package leetcode.热题100.搜索旋转排序数组;
 
 /**
  * @author Wu

@@ -1,4 +1,4 @@
-package LeetCode.热题100.分割等和子集;
+package leetcode.热题100.分割等和子集;
 
 /**
  * @author Wu

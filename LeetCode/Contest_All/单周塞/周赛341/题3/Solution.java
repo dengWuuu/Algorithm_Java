@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛341.题3;
+package leetcode.Contest_All.单周塞.周赛341.题3;
 
 class Solution {
     public int addMinimum(String word) {

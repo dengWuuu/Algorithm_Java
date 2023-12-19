@@ -1,4 +1,4 @@
-package LeetCode.热题100.除自身以外数组的乘积;
+package leetcode.热题100.除自身以外数组的乘积;
 
 /**
  * @author Wu

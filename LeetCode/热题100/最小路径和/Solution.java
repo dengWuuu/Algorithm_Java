@@ -1,4 +1,4 @@
-package LeetCode.热题100.最小路径和;
+package leetcode.热题100.最小路径和;
 
 /**
  * @author Wu

@@ -1,4 +1,4 @@
-package LeetCode.热题100.恢复二叉搜索树;
+package leetcode.热题100.恢复二叉搜索树;
 
 /**
  * @author Wu

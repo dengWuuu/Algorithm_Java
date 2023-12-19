@@ -1,4 +1,4 @@
-package LeetCode.热题100.反转链表II;
+package leetcode.热题100.反转链表II;
 
 /**
  * @author Wu

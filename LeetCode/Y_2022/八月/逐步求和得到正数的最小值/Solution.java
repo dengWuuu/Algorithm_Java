@@ -1,4 +1,4 @@
-package LeetCode.Y_2022.八月.逐步求和得到正数的最小值;
+package leetcode.Y_2022.八月.逐步求和得到正数的最小值;
 
 /**
  * @author Wu

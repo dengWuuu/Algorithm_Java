@@ -1,4 +1,4 @@
-package LeetCode.数位dp.最大为N的数字组合;
+package leetcode.数位dp.最大为N的数字组合;
 
 import java.util.ArrayList;
 import java.util.List;

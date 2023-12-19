@@ -1,4 +1,4 @@
-package LeetCode.LC_CUP_2022_Autumn.气温变化趋势;
+package leetcode.LC_CUP_2022_Autumn.气温变化趋势;
 
 /**
  * @author Wu

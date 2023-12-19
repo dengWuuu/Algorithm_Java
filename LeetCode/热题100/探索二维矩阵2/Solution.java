@@ -1,4 +1,4 @@
-package LeetCode.热题100.探索二维矩阵2;
+package leetcode.热题100.探索二维矩阵2;
 
 /**
  * @author Wu

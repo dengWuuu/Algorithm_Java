@@ -1,4 +1,4 @@
-package LeetCode.Contest_All.单周塞.周赛312.找到所有好下标;
+package leetcode.Contest_All.单周塞.周赛312.找到所有好下标;
 
 import java.util.ArrayList;
 import java.util.List;

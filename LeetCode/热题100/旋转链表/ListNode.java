@@ -1,4 +1,4 @@
-package LeetCode.热题100.旋转链表;
+package leetcode.热题100.旋转链表;
 
 public class ListNode {
     int val;
