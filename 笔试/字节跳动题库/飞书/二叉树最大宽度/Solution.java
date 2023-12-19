@@ -1,6 +1,6 @@
 package 笔试.字节跳动题库.飞书.二叉树最大宽度;
 
-import LeetCode.热题100.hard.二叉树路径最大和.TreeNode;
+import leetcode.热题100.hard.二叉树路径最大和.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

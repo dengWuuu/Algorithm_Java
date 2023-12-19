@@ -1,6 +1,6 @@
 package 剑指Offer_专项突击版.二叉树.节点之和最大的路径;
 
-import LeetCode.热题100.hard.二叉树路径最大和.TreeNode;
+import leetcode.热题100.hard.二叉树路径最大和.TreeNode;
 
 /**
  * @author Wu

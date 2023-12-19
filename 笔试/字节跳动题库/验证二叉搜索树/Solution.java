@@ -1,6 +1,6 @@
 package 笔试.字节跳动题库.验证二叉搜索树;
 
-import LeetCode.热题100.hard.二叉树路径最大和.TreeNode;
+import leetcode.热题100.hard.二叉树路径最大和.TreeNode;
 
 /**
  * @author Wu

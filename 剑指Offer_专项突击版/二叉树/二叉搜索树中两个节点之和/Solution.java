@@ -1,6 +1,6 @@
 package 剑指Offer_专项突击版.二叉树.二叉搜索树中两个节点之和;
 
-import LeetCode.热题100.hard.二叉树路径最大和.TreeNode;
+import leetcode.热题100.hard.二叉树路径最大和.TreeNode;
 
 import java.util.HashSet;
 import java.util.Set;

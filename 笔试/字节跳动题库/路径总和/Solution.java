@@ -1,6 +1,6 @@
 package 笔试.字节跳动题库.路径总和;
 
-import LeetCode.热题100.hard.二叉树路径最大和.TreeNode;
+import leetcode.热题100.hard.二叉树路径最大和.TreeNode;
 
 public class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {

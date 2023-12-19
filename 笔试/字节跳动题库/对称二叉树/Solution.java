@@ -1,6 +1,6 @@
 package 笔试.字节跳动题库.对称二叉树;
 
-import LeetCode.热题100.hard.二叉树路径最大和.TreeNode;
+import leetcode.热题100.hard.二叉树路径最大和.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
