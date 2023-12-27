@@ -1,6 +1,6 @@
 package 笔试.字节跳动题库.删除排序链表中的重复元素II;
 
-import 剑指Offer_专项突击版.链表.ListNode;
+import 剑指offer_专项突击版.链表.ListNode;
 
 /**
  * @author Wu

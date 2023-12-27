@@ -1,6 +1,6 @@
 package leetcode.Contest_All.单周塞.周赛321.题目3;
 
-import 剑指Offer_专项突击版.链表.ListNode;
+import 剑指offer_专项突击版.链表.ListNode;
 
 import java.util.*;
 
