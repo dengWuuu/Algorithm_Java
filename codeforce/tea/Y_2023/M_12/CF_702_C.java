@@ -7,13 +7,6 @@ import java.util.StringTokenizer;
  * @author Wu
  * @date 2023年12月19日 13:39
  */
-class Main {
-    public static void main(String[] args) {
-        CF_702_C solution = new CF_702_C();
-        solution.solve();
-    }
-}
-
 public class CF_702_C {
     public void solve() {
         Kattio io = new Kattio();
@@ -26,8 +19,27 @@ public class CF_702_C {
             b[i] = io.nextInt();
         }
 
+        int ans = Integer.MIN_VALUE;
+        for (int i : a) {
+            int[] idx = findIdx(b, i);
+            int dis = Math.min(Math.abs(i - b[Math.max(idx[0], 0)]), Math.abs(b[Math.min(idx[1], b.length - 1)] - i));
+            // dis为两座城市更近的那一个的距离
+            ans = Math.max(ans, dis);
+        }
 
+        io.println(ans);
+        io.flush();
         io.close();
+    }
+
+    public int[] findIdx(int[] b, int value) {
+        int l = -1, r = b.length;
+        while (l + 1 < r) {
+            int mid = (r - l) / 2 + l;
+            if (b[mid] >= value) r = mid;
+            else l = mid;
+        }
+        return new int[]{l, r};
     }
 
     public static class Kattio extends PrintWriter {
