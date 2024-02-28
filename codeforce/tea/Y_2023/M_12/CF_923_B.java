@@ -1,7 +1,6 @@
 package codeforce.tea.Y_2023.M_12;
 
 import java.io.*;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
@@ -9,13 +8,6 @@ import java.util.StringTokenizer;
  * @author Wu
  * @date 2023年12月27日 16:04
  */
-
-class Main {
-    public static void main(String[] args) {
-        new CF_923_B().solve();
-    }
-}
-
 public class CF_923_B {
     public void solve() {
         Kattio io = new Kattio();
