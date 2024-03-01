@@ -1,16 +1,12 @@
 package leetcode.Contest_All.单周塞.周赛385.题2;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author Wu
  * @date 2023年12月12日 13:45
  */
 public class Solution {
-
     public int longestCommonPrefix(int[] arr1, int[] arr2) {
         int ans = 0;
         Set<String> set1 = new HashSet<>();
@@ -30,3 +26,4 @@ public class Solution {
         return ans;
     }
 }
+
